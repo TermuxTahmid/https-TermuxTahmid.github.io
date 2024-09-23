@@ -1,3 +1,4 @@
+FOUNDER BY NAJMIN AKTER NODI 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -120,7 +121,7 @@
     <nav>
         <a href="#home">Home</a>
         <a href="#live-updates">Live Update</a>
-        <a href="tel:+8801XXXXXXXXX">Call Us</a>
+        <a href="tel:+8801990142727">Call Us</a>
         <a href="#contact">Contact</a>
         <a href="#donate">Donate</a>
     </nav>
@@ -153,14 +154,14 @@
 
 <section id="submit-info">
     <h2>Submit Your Information</h2>
-    <form action="https://formsubmit.co/your-email@example.com" method="POST">
+    <form action="https://formsubmit.co/gmr01611@gmail.com" method="POST">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <input type="text" name="blood_group" placeholder="Your Blood Group" required>
         <textarea name="message" rows="5" placeholder="Your Message (e.g., available donation time)" required></textarea>
         
         <!-- WhatsApp link -->
-        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" style="display:block; margin: 10px 0; color: #25D366; text-decoration: none;">Contact us via WhatsApp</a>
+        <a href="https://wa.me/8801990142727" target="_blank" style="display:block; margin: 10px 0; color: #25D366; text-decoration: none;">Contact us via WhatsApp</a>
         
         <input type="submit" value="Submit Information">
         
@@ -178,7 +179,7 @@
         <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
         
         <!-- WhatsApp link -->
-        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" style="display:block; margin: 10px 0; color: #25D366; text-decoration: none;">Contact us via WhatsApp</a>
+        <a href="https://wa.me/8801990142727" target="_blank" style="display:block; margin: 10px 0; color: #25D366; text-decoration: none;">Contact us via WhatsApp</a>
         
         <input type="submit" value="Send Message">
         
