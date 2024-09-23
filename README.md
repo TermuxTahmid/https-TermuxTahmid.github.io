@@ -1,4 +1,4 @@
-FOUNDER BY NAJMIN AKTER NODI 
+FOUNDER BY NAJMIN AKTER NODI
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,33 +7,42 @@ FOUNDER BY NAJMIN AKTER NODI
     <meta name="description" content="Bangladesh Blood Service Center Mymensingh - A blood donation organization.">
     <title>Bangladesh Blood Service Center Mymensingh</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
         }
         header {
             background-color: #e74c3c;
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 20px;
         }
-        h1 {
-            margin: 0;
+        header h1 {
+            margin-bottom: 10px;
+        }
+        header img {
+            width: 150px;
+            height: auto;
         }
         nav {
-            margin: 10px 0;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
         }
         nav a {
             margin: 0 15px;
-            padding: 10px 15px;
+            padding: 10px 20px;
             background-color: #2c3e50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-size: 16px;
         }
         nav a:hover {
             background-color: #34495e;
@@ -42,67 +51,72 @@ FOUNDER BY NAJMIN AKTER NODI
             padding: 20px;
             text-align: center;
         }
+        section h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        section p {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
-        form {
-            margin: 20px auto;
-            width: 50%;
-            background-color: #fff;
+        .form-section {
+            background-color: white;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 0 auto;
         }
-        input[type="text"], input[type="email"], textarea {
-            width: 100%;
-            padding: 10px;
+        .form-section form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-section input[type="text"], 
+        .form-section input[type="email"], 
+        .form-section textarea {
             margin: 10px 0;
+            padding: 10px;
             border: 1px solid #ccc;
-            border-radius: 4px;
+            border-radius: 5px;
+            font-size: 16px;
         }
-        input[type="submit"] {
+        .form-section input[type="submit"] {
+            padding: 10px;
             background-color: #e74c3c;
             color: white;
             border: none;
-            padding: 10px 20px;
+            border-radius: 5px;
             cursor: pointer;
-            border-radius: 4px;
         }
-        input[type="submit"]:hover {
+        .form-section input[type="submit"]:hover {
             background-color: #c0392b;
         }
-        img {
-            width: 150px;
-            height: auto;
-            margin-top: 10px;
-        }
         .button {
-            display: block;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
             background-color: #27ae60;
             color: white;
-            padding: 15px;
-            text-align: center;
             text-decoration: none;
             border-radius: 5px;
-            margin-top: 20px;
         }
         .button:hover {
             background-color: #2ecc71;
         }
         .donate-buttons {
-            margin: 20px auto;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
         }
         .donate-buttons a {
             display: inline-block;
+            margin: 0 10px;
             padding: 10px 20px;
-            margin: 10px;
             background-color: #2980b9;
             color: white;
             text-decoration: none;
@@ -111,17 +125,30 @@ FOUNDER BY NAJMIN AKTER NODI
         .donate-buttons a:hover {
             background-color: #3498db;
         }
+
+        @media screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+            .form-section {
+                width: 90%;
+            }
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Bangladesh Blood Service Center Mymensingh</h1>
-    <img src="path-to-your-logo/logo.jpg" alt="Organization Logo">
+    <img src="https://ibb.co.com/GMwTXZz" alt="Organization Logo">
     <nav>
         <a href="#home">Home</a>
         <a href="#live-updates">Live Update</a>
-        <a href="tel:+8801990142727">Call Us</a>
+        <a href="tel:+8801XXXXXXXXX">Call Us</a>
         <a href="#contact">Contact</a>
         <a href="#donate">Donate</a>
     </nav>
@@ -129,18 +156,18 @@ FOUNDER BY NAJMIN AKTER NODI
 
 <section id="home">
     <h2>Welcome to Bangladesh Blood Service Center Mymensingh</h2>
-    <p>We are a blood donation organization dedicated to saving lives. Join us in our mission to provide life-saving blood to those in need.</p>
+    <p>We are dedicated to saving lives by organizing blood donation drives and providing blood to those in need.</p>
 </section>
 
 <section id="live-updates">
     <h2>Live Updates</h2>
-    <p>Stay updated with the latest blood donation drives and emergency blood needs in your area.</p>
+    <p>Stay updated with the latest news about blood donation events and emergency needs.</p>
     <a href="https://your-live-update-link.com" class="button">Check Live Updates</a>
 </section>
 
 <section id="donate">
     <h2>Donate Blood</h2>
-    <p>If you are interested in donating blood, please click on the button below to see the list of donors or to submit your information.</p>
+    <p>If you are interested in donating blood or checking the donor list, please click on the button below.</p>
     <div class="donate-buttons">
         <a href="#donor-list">Donor List</a>
         <a href="#submit-info">Submit Your Info</a>
@@ -149,43 +176,33 @@ FOUNDER BY NAJMIN AKTER NODI
 
 <section id="donor-list">
     <h2>Donor List</h2>
-    <p>List of available donors will be displayed here. (You can integrate a dynamic donor list system)</p>
+    <p>Here you can see the list of available blood donors. (You can integrate a dynamic donor list)</p>
 </section>
 
-<section id="submit-info">
+<section id="submit-info" class="form-section">
     <h2>Submit Your Information</h2>
-    <form action="https://formsubmit.co/gmr01611@gmail.com" method="POST">
+    <form action="https://formsubmit.co/your-email@example.com" method="POST">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <input type="text" name="blood_group" placeholder="Your Blood Group" required>
-        <textarea name="message" rows="5" placeholder="Your Message (e.g., available donation time)" required></textarea>
-        
-        <!-- WhatsApp link -->
-        <a href="https://wa.me/8801990142727" target="_blank" style="display:block; margin: 10px 0; color: #25D366; text-decoration: none;">Contact us via WhatsApp</a>
-        
+        <textarea name="message" rows="4" placeholder="Additional Details" required></textarea>
+        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="button">WhatsApp Us</a>
         <input type="submit" value="Submit Information">
-        
-        <!-- Hidden field to redirect form to your email -->
-        <input type="hidden" name="_next" value="https://your-thank-you-page.com">
-        <input type="hidden" name="_subject" value="New Donor Submission!">
+        <input type="hidden" name="_next" value="https://thank-you-page.com">
+        <input type="hidden" name="_subject" value="New Donor Submission">
     </form>
 </section>
 
-<section id="contact">
+<section id="contact" class="form-section">
     <h2>Contact Us</h2>
     <form action="https://formsubmit.co/your-email@example.com" method="POST">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        
-        <!-- WhatsApp link -->
-        <a href="https://wa.me/8801990142727" target="_blank" style="display:block; margin: 10px 0; color: #25D366; text-decoration: none;">Contact us via WhatsApp</a>
-        
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="button">WhatsApp Us</a>
         <input type="submit" value="Send Message">
-        
-        <!-- Hidden field to redirect form to your email -->
-        <input type="hidden" name="_next" value="https://your-thank-you-page.com">
-        <input type="hidden" name="_subject" value="New Contact Form Submission!">
+        <input type="hidden" name="_next" value="https://thank-you-page.com">
+        <input type="hidden" name="_subject" value="New Contact Form Submission">
     </form>
 </section>
 
