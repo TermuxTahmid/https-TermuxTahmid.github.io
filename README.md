@@ -144,7 +144,7 @@ FOUNDER BY NAJMIN AKTER NODI
 
 <header>
     <h1>Bangladesh Blood Service Center Mymensingh</h1>
-    <img src="https://ibb.co.com/GMwTXZz" alt="Organization Logo">
+    <img src="https://i.ibb.co.com/7pc4H3s/cropped-image.png alt="Organization Logo">
     <nav>
         <a href="#home">Home</a>
         <a href="#live-updates">Live Update</a>
